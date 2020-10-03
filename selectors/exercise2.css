@@ -1,0 +1,15 @@
+body {background-color: #f0f8ff;}
+    div {width:75% ; border:1px solid #333333 ;margin-top: 1em;padding:0.5em;background-color:white; border-radius:9px ; }
+    span {font-weight:bold ;padding-left:0.5em ;padding-right:0.5em ;}
+    div{box-shadow: 3.5px 3px 3px ;}
+    #alert{
+         border:dashed red ; color :red;
+         box-shadow: 3.5px 3px 3px -1px red;}
+    
+    .hl1{ background-color:#fdca96 ;
+    }
+    .hl2{background-color:#fdfd96
+    }    
+        
+        
+        

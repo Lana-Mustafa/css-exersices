@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Exercise #1: Boxes and spacing</title>
+    <title>Exercise #1b: Boxes and spacing</title>
     <style>
     body {background-color: #f0f8ff;}
-    div {width:75% ; border:1px solid #333333 ;margin-top: 1em;padding:0.5em;background-color:white; }
+    div {width:75% ; border:1px solid #333333 ;margin-top: 1em;padding:0.5em;background-color:white; border-radius:9px ; }
     span {font-weight:bold ;padding-left:0.5em ;padding-right:0.5em ;}
-    </style>
+    div{box-shadow: 3.5px 3px 3px ;}
+    #redShadow{box-shadow: 3.5px 3px 3px -1px red;}
+</style>
 </head>
 <body>
 
 <h1>News</h1>
 
-<div>
+<div >
     <h2>News heading 1</h2>
 
     <p>
@@ -27,7 +29,7 @@
     </p>
 </div>
 
-<div style="border:dashed red ; color :red;"> 
+<div id="redShadow" style="border:dashed red ; color :red;"> 
     <h2>News heading 2</h2>
 
     <p>
@@ -39,7 +41,7 @@
     </p>
 </div>
 
-<div>
+<div >
     <h2>News heading 3</h2>
 
     <p>
